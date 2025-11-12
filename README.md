@@ -1,20 +1,26 @@
-# 📟 Calcify — A Simple Console Calculator in C
+# 📟 Calcify — Simple Console Calculator in C
 
-**Calcify** is a simple console-based calculator written in **C**, created by **Muhammad Zaydan Anugrah Pratama**.  
-This project was developed to practice fundamental programming concepts such as input handling, arithmetic operations, looping, and conditional logic.
+**Calcify** is a simple yet functional console-based calculator written in **C**, developed by **Zaydan Pratama**.  
+This project was built to strengthen basic programming skills, including user input handling, arithmetic operations, conditional logic, and looping.
 
 ---
 
 ## 🚀 Features
-- Perform basic arithmetic operations: **Addition (+)**, **Subtraction (-)**, **Multiplication (×)**, **Division (÷)**
-- Looping system for repeated use
-- Input validation for better user experience
-- Clear and interactive text-based interface
+- Perform basic arithmetic operations:
+  - ➕ Addition
+  - ➖ Subtraction
+  - ✖️ Multiplication
+  - ➗ Division
+- Interactive menu-based system
+- Input validation for incorrect choices
+- Continuous operation until user exits
 
 ---
 
 ## ⚙️ How to Run
-### Using GCC (Recommended)
+
+### 🧩 Using GCC (Recommended)
+Make sure GCC is installed on your system, then open your terminal and run:
 ```bash
-gcc calcify.c -o calcify
+gcc kalkulator.c -o calcify
 ./calcify
